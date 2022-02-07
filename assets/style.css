@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+header {
+  width: 100vw;
+  height: 7em;
+}
+header nav {
+  display: inline-block;
+  align-items: center;
+}
+header nav h1 {
+  align-items: center;
+}
+header nav h4 {
+  margin-left: 80vw;
+}
+
+.images-section {
+  display: flex;
+  width: 100vw;
+  height: 200vh;
+}
+.images-section .col-1 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+.images-section .col-1 .row1 {
+  width: 100%;
+  height: 40vh;
+  background-color: aqua;
+}
+.images-section .col-1 .row-2 {
+  width: 100%;
+  height: 50vh;
+  background-color: teal;
+}
+.images-section .col-1 .row-3 {
+  width: 100%;
+  height: 70vh;
+  background-color: bisque;
+}
+.images-section .col-1 .row-4 {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+}
+.images-section .col-2 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+.images-section .col-2 .row-1 {
+  width: 100%;
+  height: 70vh;
+  background-color: bisque;
+}
+.images-section .col-2 .row-2 {
+  width: 100%;
+  height: 40vh;
+  background-color: chocolate;
+}
+.images-section .col-2 .row-3 {
+  width: 100%;
+  height: 40vh;
+  background-color: brown;
+}
+.images-section .col-2 .row-4 {
+  width: 100%;
+  height: 50vh;
+  background-color: coral;
+}
+.images-section .col-3 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+.images-section .col-3 .row-1 {
+  width: 100%;
+  height: 44vh;
+  background-color: antiquewhite;
+}
+.images-section .col-3 .row-2 {
+  width: 100%;
+  height: 78vh;
+  background-color: darkcyan;
+}
+.images-section .col-3 .row-3 {
+  width: 100%;
+  height: 78vh;
+  background-color: #5a8b00;
+}
+.images-section .col-4 {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+.images-section .row-1 {
+  width: 100%;
+  height: 40vh;
+  background-color: brown;
+}
+.images-section .row-2 {
+  width: 100%;
+  height: 40vh;
+  background-color: #a3a52a;
+}
+.images-section .row-3 {
+  width: 100%;
+  height: 70vh;
+  background-color: #2aa563;
+}
+.images-section .row-1 {
+  width: 100%;
+  height: 50vh;
+  background-color: #768d68;
+}
+
+/*# sourceMappingURL=style.css.map */
