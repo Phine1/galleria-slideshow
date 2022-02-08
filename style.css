@@ -1,0 +1,547 @@
+body {
+    font-family: Libre Baskerville;
+    font-style: normal;
+  }
+  #heads{
+      background-color: rgb(27, 20, 20);
+      color: #7d7d7d;
+      text-align: center;
+      font-size: 34px;
+  }
+
+  .heading {
+    font-weight: bold;
+    margin-block: 0.5rem;
+  }
+  .heading--display {
+    margin: 5;
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+    color: #f3f3f3;
+  }
+  @media only screen and (min-width: 40em) {
+    .heading--display {
+      font-size: 12.5rem;
+      line-height: 9.375rem;
+    }
+  }
+  .heading--1 {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: #000;
+  }
+  @media only screen and (min-width: 40em) {
+    .heading--1 {
+      font-size: 3.5rem;
+      line-height: 4rem;
+    }
+  }
+  .heading--2 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #000;
+    font-weight: normal;
+  }
+  .heading--3 {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #000;
+  }
+  @media only screen and (min-width: 40em) {
+    .heading--3 {
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+  .heading--light {
+    color: #fff;
+  }
+  
+  .subhead {
+    margin-block: 0rem;
+    color: #000;
+    font-weight: normal;
+  }
+  .subhead--1 {
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+  }
+  .subhead--2 {
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+  }
+  @media only screen and (min-width: 40em) {
+    .subhead--2 {
+      font-size: 0.8125rem;
+      line-height: 1rem;
+    }
+  }
+  
+  .link {
+    color: #7d7d7d;
+    text-transform: uppercase;
+    transition: 150ms all ease-in-out;
+  }
+  .link:hover {
+    color: #000;
+  }
+  .link--1 {
+    font-weight: bold;
+    font-size: 0.5625rem;
+    line-height: 0.6875rem;
+    letter-spacing: 2.57143px;
+    text-decoration: none;
+  }
+  @media only screen and (min-width: 40em) {
+    .link--1 {
+      font-size: 0.75rem;
+      line-height: 0.9375rem;
+    }
+  }
+  .link--2 {
+    font-weight: bold;
+    font-size: 0.5625rem;
+    line-height: 0.6875rem;
+    letter-spacing: 1.92857px;
+    text-decoration-line: underline;
+  }
+  
+  .paragraph {
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    color: #7d7d7d;
+    margin-bottom: 2.5rem;
+  }
+  
+  .white, .white--opacity {
+    color: #fff;
+  }
+  .white--opacity {
+    opacity: 0.75;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 67.5em) {
+    .container {
+      margin: 0 auto;
+      max-width: 90rem;
+    }
+  }
+  .container--inline {
+    padding-inline: 1.5rem;
+  }
+  @media only screen and (min-width: 40em) {
+    .container--inline {
+      padding-inline: 2.5rem;
+    }
+  }
+  .container--block {
+    padding-block: 1.5rem;
+  }
+  @media only screen and (min-width: 40em) {
+    .container--block {
+      padding-block: 1.8125rem;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .container--block {
+      padding-block: 2.5rem;
+    }
+  }
+  
+  :focus,
+  :focus-visible {
+    border: 3px dotted #444 !important;
+  }
+  
+  .border-transparent {
+    border: 3px solid transparent;
+  }
+  
+  .button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  .button--arrow svg g {
+    transition: 150ms all ease-in-out;
+  }
+  .button--arrow svg:hover g {
+    stroke: #7d7d7d;
+  }
+  .button--arrow__disabled {
+    cursor: default;
+  }
+  .button--arrow__disabled svg g {
+    stroke: rgba(0, 0, 0, 0.15);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .header__logo {
+    display: block;
+    width: 7.0625rem;
+  }
+  @media only screen and (min-width: 67.5em) {
+    .header__logo {
+      width: 10.625rem;
+    }
+  }
+  
+  .grid-item {
+    float: left;
+    max-width: 20.4375rem;
+    height: auto;
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+  @media only screen and (min-width: 40em) {
+    .grid-item {
+      max-width: 20.25rem;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .grid-item {
+      max-width: 19.375rem;
+    }
+  }
+  .grid-item__link {
+    transition: 150ms all ease-in-out;
+    display: block;
+  }
+  .grid-item__link:focus, .grid-item__link:focus-visible {
+    opacity: 0.75;
+  }
+  .grid-item__link:hover {
+    opacity: 0.75;
+  }
+  .grid-item__text {
+    position: absolute;
+    padding: 32px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.841672) 100%);
+    z-index: 10;
+  }
+  .grid-item__image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  @media only screen and (min-width: 67.5em) {
+    .main--detail {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 6.25rem;
+    }
+  }
+  
+  .painting-detail {
+    position: relative;
+    z-index: 35;
+  }
+  @media only screen and (min-width: 67.5em) {
+    .painting-detail {
+      width: max(53.5rem, 60%);
+      z-index: 10;
+    }
+  }
+  .painting-detail__wrapper {
+    position: relative;
+  }
+  .painting-detail__image-wrapper {
+    position: relative;
+  }
+  .painting-detail__image {
+    max-width: 100%;
+    z-index: 10;
+  }
+  @media only screen and (min-width: 40em) {
+    .painting-detail__image {
+      max-width: 29.6875rem;
+      height: auto;
+    }
+  }
+  .painting-detail__view-image {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2.14286px;
+    font-size: 0.625rem;
+    font-family: "Libre Baskerville";
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border: none;
+  }
+  .painting-detail__view-image:hover {
+    transition: 250ms all ease-in-out;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  .painting-detail__view-image > span {
+    padding-left: 1rem;
+  }
+  @media only screen and (min-width: 40em) {
+    .painting-detail__view-image {
+      top: unset;
+      bottom: 1rem;
+    }
+  }
+.containers{
+    text-align:center;
+}
+
+  .painting-detail__headline-wrapper {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(60%);
+    width: 90%;
+  }
+  @media only screen and (min-width: 40em) {
+    .painting-detail__headline-wrapper {
+      bottom: unset;
+      top: 0;
+      right: 0;
+      transform: unset;
+      max-width: 27.8125rem;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .painting-detail__headline-wrapper {
+      height: 100%;
+    }
+  }
+  .painting-detail__name-author {
+    padding: 1.5rem;
+    background-color: white;
+    display: block;
+    z-index: 35;
+  }
+  @media only screen and (min-width: 40em) {
+    .painting-detail__name-author {
+      box-sizing: border-box;
+      padding: 0.5rem 0.5rem 4rem 4rem;
+    }
+  }
+  .painting-detail__name-author .subhead--1 {
+    color: #7d7d7d;
+  }
+  .painting-detail__name {
+    position: relative;
+    z-index: 35;
+  }
+  .painting-detail__artist {
+    position: relative;
+    margin-left: 1rem;
+    width: 4rem;
+    z-index: 35;
+  }
+  @media only screen and (min-width: 40em) {
+    .painting-detail__artist {
+      width: 8rem;
+      float: right;
+      margin-right: 2rem;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .painting-detail__artist {
+      margin-left: 6.25rem;
+      margin-right: 0;
+      position: absolute;
+      bottom: 0px;
+      transform: translateY(50%);
+    }
+  }
+  
+  .description {
+    padding-top: 9.375rem;
+    position: relative;
+  }
+  @media only screen and (min-width: 40em) {
+    .description {
+      padding-top: 0;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .description {
+      width: 29.75rem;
+    }
+  }
+  .description__year {
+    position: absolute;
+    top: 5.625rem;
+    right: 0;
+    z-index: 30;
+  }
+  @media only screen and (min-width: 40em) {
+    .description__year {
+      top: 4rem;
+      left: 0;
+      right: unset;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .description__year {
+      left: unset;
+      right: 0;
+      top: 0;
+    }
+  }
+  .description__text {
+    padding-bottom: 4.25rem;
+    position: relative;
+    z-index: 40;
+  }
+  @media only screen and (min-width: 40em) {
+    .description__text {
+      max-width: 28.5625rem;
+      padding-top: 8.125rem;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (min-width: 67.5em) {
+    .description__text {
+      max-width: 21.875rem;
+      margin-left: 0;
+    }
+  }
+  
+  .footer {
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .footer__navigation {
+    width: 100%;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media only screen and (min-width: 40em) {
+    .footer__navigation {
+      padding-block: 1.3rem;
+    }
+  }
+  .footer__buttons {
+    display: flex;
+    gap: 20px;
+  }
+  @media only screen and (min-width: 40em) {
+    .footer__buttons {
+      gap: 40px;
+    }
+  }
+  .footer__buttons svg {
+    scale: 0.75;
+  }
+  @media only screen and (min-width: 40em) {
+    .footer__buttons svg {
+      scale: 1;
+    }
+  }
+  .footer .subhead {
+    opacity: 0.75;
+  }
+  .footer__meter {
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+  }
+  .footer__meter--inside {
+    background-color: #000;
+    height: 1px;
+  }
+  
+  .lightbox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox__image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .lightbox__close {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.875rem;
+    font-family: "Libre Baskerville";
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 2.0625rem;
+  }
+  @media only screen and (min-width: 40em) {
+    .lightbox__close {
+      padding-bottom: 2.5625rem;
+    }
+  }
+  .lightbox__close:hover {
+    color: silver;
+  }
+  .lightbox__image {
+    max-width: 100%;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
