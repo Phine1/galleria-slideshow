@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  html {
+    background-color: #ffffff;
+  }
+  header {
+    width: 100vw;
+    height: 7em;
+    nav {
+      display: inline-block;
+      align-items: center;
+  
+      h1 {
+        align-items: center;
+      }
+      h4 {
+          margin-left: 80vw;
+      }
+    }
+  }
+  $col-length: 25vw;
+  $row-width: 100%;
+  .images-section {
+    display: flex;
+    width: 100vw;
+    height: 200vh;
+    .col-1 {
+      display: flex;
+      flex-direction: column;
+      width: $col-length;
+      .row1 {
+        width: $row-width;
+        height: 40vh;
+        background-color: aqua;
+      }
+      .row-2 {
+        width: $row-width;
+        height: 50vh;
+        background-color: teal;
+      }
+      .row-3 {
+        width: $row-width;
+        height: 70vh;
+        background-color: bisque;
+      }
+      .row-4 {
+        width: $row-width;
+        height: 40vh;
+        background-color: black;
+      }
+    }
+    .col-2 {
+      display: flex;
+      flex-direction: column;
+      width: $col-length;
+      .row-1 {
+        width: $row-width;
+        height: 70vh;
+        background-color: bisque;
+      }
+      .row-2 {
+        width: $row-width;
+        height: 40vh;
+        background-color: chocolate;
+      }
+      .row-3 {
+        width: $row-width;
+        height: 40vh;
+        background-color: brown;
+      }
+      .row-4 {
+        width: $row-width;
+        height: 50vh;
+        background-color: coral;
+      }
+    }
+    .col-3 {
+      display: flex;
+      flex-direction: column;
+      width: $col-length;
+      .row-1 {
+        width: $row-width;
+        height: 44vh;
+        background-color: antiquewhite;
+      }
+      .row-2 {
+        width: $row-width;
+        height: 78vh;
+        background-color: darkcyan;
+      }
+      .row-3 {
+        width: $row-width;
+        height: 78vh;
+        background-color: rgb(90, 139, 0);
+      }
+    }
+    .col-4 {
+      display: flex;
+      flex-direction: column;
+      width: $col-length;
+    }
+    .row-1 {
+      width: $row-width;
+      height: 40vh;
+      background-color: brown;
+    }
+    .row-2 {
+      width: $row-width;
+      height: 40vh;
+      background-color: rgb(163, 165, 42);
+    }
+    .row-3 {
+      width: $row-width;
+      height: 70vh;
+      background-color: rgb(42, 165, 99);
+    }
+    .row-1 {
+      width: $row-width;
+      height: 50vh;
+      background-color: rgb(118, 141, 104);
+    }
+  }
