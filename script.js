@@ -1,15 +1,10 @@
 const div = document.getElementById("div")
-
-
-
- 
-
     fetch('./data.json')
     .then((response) => response.json())
     .then((data)=> {
         data.forEach((element) => {
           div.innerHTML += ` 
-          <section class= "image-wrapper grid-item">
+          <section class="image-wrapper grid-item">
           <a class="grid-item__link" href="">
               <div class="grid-item__text">
                 <h2 class="heading heading--2 white">${element.name}</h2>
@@ -31,7 +26,7 @@ const macy = Macy({
       840: 2,
       600: 1,
   },
-  waitForImages: true,
+  waitForImages: false,
 });
 macy.recalculate()
         })});
