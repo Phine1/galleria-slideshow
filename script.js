@@ -20,5 +20,18 @@ const div = document.getElementById("div")
             </a>
           </section>`
       
-
+//a feature from masonry grid for vertical alignment
+const macy = Macy({
+  container: '.div',
+  columns: 4,
+  margin: 24,
+  trueOrder: false,
+  breakAt: {
+      1100: 3,
+      840: 2,
+      600: 1,
+  },
+  waitForImages: true,
+});
+macy.recalculate()
         })});
