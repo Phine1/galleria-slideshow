@@ -2,16 +2,17 @@ const div = document.getElementById("div")
     fetch('./data.json')
     .then((response) => response.json())
     .then((data)=> {
-        data.forEach((element) => {
-          div.innerHTML += ` 
+      console.log(data)
+        // data.forEach((element) => {
+          div.innerHTML = ` 
           <section class="image-wrapper grid-item">
           <a class="grid-item__link" href="">
               <div class="grid-item__text">
-                <h2 class="heading heading--2 white">${element.name}</h2>
+                <h2 class="heading heading--2 white">${data[0].name}</h2>
                 
-                <p class="subhead subhead--2 white--opacity">${element.artist.name}</p>
+                <p class="subhead subhead--2 white--opacity">${data[0].artist.name}</p>
               </div>
-              <img class="grid-item__image" src="${element.images.thumbnail}" alt="${element.name}, author ${element.artist.name}">
+              <img class="grid-item__image" src="${data[0].images.thumbnail}" alt="${data[0].name}, author ${data[0].artist.name}">
             </a>
           </section>`
       
@@ -29,4 +30,4 @@ const macy = Macy({
   waitForImages: false,
 });
 macy.recalculate()
-        })});
+        });
