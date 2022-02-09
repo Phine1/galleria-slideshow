@@ -150,6 +150,7 @@ header hr {
   margin-top: 12rem;
   height: 60px;
   line-height: 30px;
+  margin-block: 7em;
 }
 .images-section .subhead {
   position: absolute;
@@ -159,6 +160,7 @@ header hr {
   color: #ffffff;
   font-size: 13px;
   line-height: 16px;
+  margin-block: 16em;
   mix-blend-mode: normal;
   opacity: 0.75;
 }
@@ -169,6 +171,24 @@ header hr {
   margin: auto;
   object-fit: cover;
 }
+.images-section .col-1 .row-1 .heading {
+  margin-block: 12rem;
+}
+.images-section .col-1 .row-1 .subhead {
+  margin-block: 15rem;
+}
+.images-section .col-1 .row-2 .heading {
+  margin-block: 14rem;
+}
+.images-section .col-1 .row-2 .subhead {
+  margin-block: 17rem;
+}
+.images-section .col-1 .row-3 .heading {
+  margin-block: 20rem;
+}
+.images-section .col-1 .row-3 .subhead {
+  margin-block: 23rem;
+}
 .images-section .col-1 .row-3 .grid {
   width: 90%;
   height: 85%;
@@ -177,17 +197,53 @@ header hr {
   object-fit: cover;
   margin-top: 2em;
 }
+.images-section .col-2 .row-1 .heading {
+  margin-block: 20rem;
+}
+.images-section .col-2 .row-1 .subhead {
+  margin-block: 23rem;
+}
 .images-section .col-2 .row-1 .grid {
   height: 94%;
+}
+.images-section .col-2 .row-4 .heading {
+  margin-block: 15rem;
+}
+.images-section .col-2 .row-4 .subhead {
+  margin-block: 18rem;
 }
 .images-section .col-2 .row-4 .grid {
   height: 92.4%;
 }
+.images-section .col-3 .row-2 .heading {
+  margin-block: 24rem;
+}
+.images-section .col-3 .row-2 .subhead {
+  margin-block: 27rem;
+}
 .images-section .col-3 .row-2 .grid {
   height: 94%;
 }
+.images-section .col-3 .row-3 .heading {
+  margin-block: 24rem;
+}
+.images-section .col-3 .row-3 .subhead {
+  margin-block: 27rem;
+}
 .images-section .col-3 .row-3 .grid {
   height: 95%;
+}
+.images-section .col-4 .row-1 .heading {
+  margin-block: 12rem;
+}
+.images-section .col-4 .row-1 .subhead {
+  margin-block: 15rem;
+}
+.images-section .col-4 .row-3 .heading {
+  margin-block: 21rem;
+}
+.images-section .col-4 .row-3 .subhead {
+  margin-block: 24rem;
 }
 .images-section .col-4 .row-3 .grid {
   margin-top: 10px;

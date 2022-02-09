@@ -160,6 +160,8 @@ $head2-lh: 17px;
     margin-top: 12rem;
     height: 60px;
     line-height: $head1-lh;
+    margin-block: 7em ;
+    // overflow: hidden;
   }
   .subhead {
     position: absolute;
@@ -169,9 +171,7 @@ $head2-lh: 17px;
     color: #ffffff;
     font-size: 13px;
     line-height: 16px;
-
-    // color: #FFFFFF;
-
+    margin-block: 16em;
     mix-blend-mode: normal;
     opacity: 0.75;
   }
@@ -183,7 +183,29 @@ $head2-lh: 17px;
     object-fit: cover;
   }
   .col-1 {
+    .row-1 {
+      .heading {
+        margin-block: 12rem;
+      }
+      .subhead {
+        margin-block: 15rem;
+      }
+    }
+    .row-2 {
+      .heading {
+        margin-block: 14rem;
+      }
+      .subhead {
+        margin-block: 17rem;
+      }
+    }
     .row-3 {
+      .heading {
+        margin-block: 20rem;
+      }
+      .subhead {
+        margin-block: 23rem;
+      }
       .grid {
         width: 90%;
     height: 85%;
@@ -196,11 +218,23 @@ $head2-lh: 17px;
   }
   .col-2 {
     .row-1 {
+      .heading {
+        margin-block: 20rem;
+      }
+      .subhead {
+        margin-block: 23rem;
+      }
       .grid {
         height: 94%;
     }
   }
   .row-4 {
+    .heading {
+      margin-block: 15rem;
+    }
+    .subhead {
+      margin-block: 18rem;
+    }
     .grid {
       height: 92.4%;
     }
@@ -208,18 +242,44 @@ $head2-lh: 17px;
 }
 .col-3 {
   .row-2 {
+    .heading {
+      margin-block: 24rem;
+    }
+    .subhead {
+      margin-block: 27rem;
+    }
     .grid {
       height:94% ;
     }
   }
   .row-3 {
+    .heading {
+      margin-block: 24rem;
+    }
+    .subhead {
+      margin-block: 27rem;
+    }
     .grid {
       height: 95%;
     }
   }
 }
 .col-4 {
+  .row-1 {
+    .heading {
+      margin-block: 12rem;
+    }
+    .subhead {
+      margin-block: 15rem;
+    }
+  }
   .row-3 {
+    .heading {
+      margin-block: 21rem;
+    }
+    .subhead {
+      margin-block: 24rem;
+    }
     .grid {
       margin-top: 10px;
     }
