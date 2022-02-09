@@ -22,23 +22,24 @@ fetch("./data.json")
                 <h2 class="heading">${data[0].name}</h2>
                 <p class="subhead">${data[0].artist.name}</p>
               <img class="grid" src="${data[0].images.thumbnail}" alt="${data[0].name}, author ${data[0].artist.name}">
+              </div>
           `;
-    two.innerHTML = ` 
-          <h2 class="heading">${data[4].name}</h2>
+    two.innerHTML = `  <div class='render'>
+     <h2 class="heading">${data[4].name}</h2> 
           <p class="subhead">${data[4].artist.name}</p>
         <img class="grid" src="${data[4].images.thumbnail}" alt="${data[4].name}, author ${data[4].artist.name}">
-    `;
+ `;
     three.innerHTML = ` 
     <h2 class="heading">${data[8].name}</h2>
     <p class="subhead">${data[8].artist.name}</p>
-  <img class="grid" src="${data[8].images.thumbnail}" alt="${data[8].name}, author ${data[8].artist.name}">
+    <img class="grid" src="${data[8].images.thumbnail}" alt="${data[8].name}, author ${data[8].artist.name}">
 `;
-    four.innerHTML = ` 
+    four.innerHTML = `
 <h2 class="heading">${data[11].name}</h2>
 <p class="subhead">${data[11].artist.name}</p>
 <img class="grid" src="${data[11].images.thumbnail}" alt="${data[11].name}, author ${data[11].artist.name}">
-`;
-    five.innerHTML = ` 
+ `;
+    five.innerHTML = `
 <h2 class="heading">${data[1].name}</h2>
 <p class="subhead">${data[1].artist.name}</p>
 <img class="grid" src="${data[1].images.thumbnail}" alt="${data[1].name}, author ${data[1].artist.name}">
@@ -47,32 +48,32 @@ fetch("./data.json")
 <h2 class="heading">${data[5].name}</h2>
 <p class="subhead">${data[5].artist.name}</p>
 <img class="grid" src="${data[5].images.thumbnail}" alt="${data[5].name}, author ${data[5].artist.name}">
-`;
-    seven.innerHTML = ` 
+  `;
+    seven.innerHTML = `
 <h2 class="heading">${data[9].name}</h2>
 <p class="subhead">${data[9].artist.name}</p>
 <img class="grid" src="${data[9].images.thumbnail}" alt="${data[9].name}, author ${data[9].artist.name}">
-`;
-    eight.innerHTML = ` 
+ `;
+    eight.innerHTML = `
 <h2 class="heading">${data[12].name}</h2>
 <p class="subhead">${data[12].artist.name}</p>
 <img class="grid" src="${data[12].images.thumbnail}" alt="${data[12].name}, author ${data[12].artist.name}">
-`;
-    nine.innerHTML = ` 
+  `;
+    nine.innerHTML = `
 <h2 class="heading">${data[2].name}</h2>
 <p class="subhead">${data[2].artist.name}</p>
 <img class="grid" src="${data[2].images.thumbnail}" alt="${data[2].name}, author ${data[2].artist.name}">
-`;
-    ten.innerHTML = ` 
+ `;
+    ten.innerHTML = `
 <h2 class="heading">${data[6].name}</h2>
 <p class="subhead">${data[6].artist.name}</p>
 <img class="grid" src="${data[6].images.thumbnail}" alt="${data[6].name}, author ${data[6].artist.name}">
 `;
-    eleven.innerHTML = ` 
+    eleven.innerHTML = `
 <h2 class="heading">${data[13].name}</h2>
 <p class="subhead">${data[13].artist.name}</p>
 <img class="grid" src="${data[13].images.thumbnail}" alt="${data[13].name}, author ${data[13].artist.name}">
-`;
+ `;
     twelve.innerHTML = ` 
 <h2 class="heading">${data[3].name}</h2>
 <p class="subhead">${data[3].artist.name}</p>
