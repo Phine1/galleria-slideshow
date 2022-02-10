@@ -14,6 +14,7 @@ const thirteen = document.getElementById("anchor-13");
 const fourteen = document.getElementById("anchor-14");
 const fifteen = document.getElementById("anchor-15");
 // one.textContent = ''
+console.log(one)
 
 fetch("./data.json")
   .then((response) => response.json())
