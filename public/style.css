@@ -271,6 +271,7 @@ header hr {
 } */
 .grid{
   transition: 0.5s ease-out;
+  transition-delay: 150ms;
 }
 
 .grid:hover{
