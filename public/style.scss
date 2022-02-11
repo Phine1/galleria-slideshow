@@ -14,11 +14,10 @@ header {
   nav {
     position: absolute;
     width: 100vw;
-    height: 48px;
+    height: 62px;
     left: 40px;
     top: 40px;
-    // display: inline-block;
-    // align-items: center;
+  ;
 
     h1 {
       position: absolute;
@@ -29,7 +28,7 @@ header {
       color: #000000;
       font-weight: bolder;
       font-size: 44px;
-      line-height: 30px;
+      line-height: 45px;
     }
     h4 {
       position: absolute;
@@ -41,10 +40,8 @@ header {
       font-weight: bold;
       font-size: 12px;
       line-height: 15px;
-      // text-align: right;
       letter-spacing: 2.57143px;
       color: #7d7d7d;
-      // margin-right: 10%;
     }
   }
   hr {
@@ -78,9 +75,6 @@ $head2-lh: 17px;
     .row-2 {
       width: $row-width;
       height: 50vh;
-      // word-wrap: break-word;
-// white-space: pre-wrap;
-// word-break: break-word;
     }
     .row-3 {
       width: $row-width;
@@ -161,7 +155,6 @@ $head2-lh: 17px;
     height: 60px;
     line-height: $head1-lh;
     margin-block: 7em ;
-    // overflow: hidden;
   }
   .subhead {
     position: absolute;
@@ -181,7 +174,13 @@ $head2-lh: 17px;
     display: block;
     margin: auto;
     object-fit: cover;
+    transition: 0.5s ease-out;
+    transition-delay: 150ms;
   }
+  .grid:hover{
+    transform: translateY(20px);
+  }
+  
   .col-1 {
     .row-1 {
       .heading {
@@ -208,11 +207,10 @@ $head2-lh: 17px;
       }
       .grid {
         width: 90%;
-    height: 85%;
+    height: 92%;
     display: block;
     margin: auto;
     object-fit: cover;
-    margin-top: 2em;
       }
     }
   }
