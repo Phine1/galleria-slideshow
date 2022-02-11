@@ -255,7 +255,7 @@ header hr {
 /*# sourceMappingURL=style.css.map */
 
 /* Adding hover effects */
-.image_text{
+/* .image_text{
   opacity: 0;
 }
 .image_text:hover{
@@ -268,5 +268,11 @@ header hr {
 
 .image_text:hover > * {
   transform: translateY(0);
+} */
+.grid{
+  transition: 0.5s ease-out;
 }
 
+.grid:hover{
+  transform: translateY(20px);
+}

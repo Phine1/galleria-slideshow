@@ -24,7 +24,7 @@ fetch("./data.json")
             <h2 class="heading">${data[0].name}</h2>
             <p class="subhead">${data[0].artist.name}</p>
         </div>
-        <img class="grid" src="${data[0].images.thumbnail}" alt="${data[0].name}, author ${data[0].artist.name}">
+        <img class="grid" "grid--blur" src="${data[0].images.thumbnail}" alt="${data[0].name}, author ${data[0].artist.name}">
             
           `;
     two.innerHTML = ` 
