@@ -17,7 +17,7 @@ header {
 header nav {
   position: absolute;
   width: 100vw;
-  height: 48px;
+  height: 62px;
   left: 40px;
   top: 40px;
 }
@@ -30,7 +30,7 @@ header nav h1 {
   color: #000000;
   font-weight: bolder;
   font-size: 44px;
-  line-height: 30px;
+  line-height: 45px;
 }
 header nav h4 {
   position: absolute;
@@ -64,10 +64,7 @@ header hr {
   flex-direction: column;
   width: 25vw;
   margin-left: 5px;
-  transition-property: background-color;
-  transition-duration: 0.1s;
 }
-
 .images-section .col-1 .row1 {
   width: 100%;
   height: 40vh;
@@ -173,6 +170,11 @@ header hr {
   display: block;
   margin: auto;
   object-fit: cover;
+  transition: 0.5s ease-out;
+  transition-delay: 150ms;
+}
+.images-section .grid:hover {
+  transform: translateY(20px);
 }
 .images-section .col-1 .row-1 .heading {
   margin-block: 12rem;
@@ -194,11 +196,10 @@ header hr {
 }
 .images-section .col-1 .row-3 .grid {
   width: 90%;
-  height: 85%;
+  height: 92%;
   display: block;
   margin: auto;
   object-fit: cover;
-  margin-top: 2em;
 }
 .images-section .col-2 .row-1 .heading {
   margin-block: 20rem;
@@ -248,32 +249,8 @@ header hr {
 .images-section .col-4 .row-3 .subhead {
   margin-block: 24rem;
 }
-.images-section .col-4 .row-3 .grid{
+.images-section .col-4 .row-3 .grid {
   margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
-
-/* Adding hover effects */
-/* .image_text{
-  opacity: 0;
-}
-.image_text:hover{
-  opacity: 1;
-}
-.image_text > * {
-  transform: translateY(20px);
-  transition: transform 0.2s;
-}
-
-.image_text:hover > * {
-  transform: translateY(0);
-} */
-.grid{
-  transition: 0.5s ease-out;
-  transition-delay: 150ms;
-}
-
-.grid:hover{
-  transform: translateY(20px);
-}
