@@ -27,7 +27,7 @@ header {
       color: #000000;
       font-weight: bolder;
       font-size: 44px;
-      line-height: 30px;
+      line-height: 40px;
     }
     h4 {
       position: absolute;
@@ -63,9 +63,10 @@ header {
   .title {
     position: absolute;
     background-color: #ffffff;
-    left: 38%;
+    left: 35%;
     margin-top: 3em;
     z-index: 3;
+    width: 30%;
     h1 {
       height: 192px;
       font-style: normal;
@@ -149,6 +150,7 @@ header {
     left: 65.07%;
     right: 9.19%;
     top: 46%;
+    width: 30%;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;

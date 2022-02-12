@@ -16,8 +16,6 @@ fetch("../../data.json")
       <img class='thumbnail' src='../../${data[13].artist.image}' alt='antique'>
 
       </div>
-
-
       <div class='text'>
       <h1>${data[13].year}</h1>
       <p class='description'>${data[13].description}</p>

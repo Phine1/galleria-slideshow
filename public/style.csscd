@@ -142,29 +142,30 @@ header hr {
   height: 50vh;
 }
 .images-section .image-text {
-  position: absolute;
-  width: 20vw;
-  height: 6em;
-  margin-left: 2%;
-  margin-top: 13%;
+  width: 3rem;
+  height: 1rem;
+  background-color: brown;
 }
 .images-section .heading {
   position: absolute;
   font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
-  margin-left: 1em;
+  color: green;
+  margin-left: 1.8em;
+  margin-top: 12rem;
   height: 60px;
   line-height: 30px;
+  margin-block: 7em;
 }
 .images-section .subhead {
   position: absolute;
   font-size: 13px;
-  margin-left: 1.8em;
+  margin-left: 3em;
+  margin-top: 15rem;
   color: #ffffff;
   font-size: 13px;
   line-height: 16px;
-  margin-block: 4em;
+  margin-block: 16em;
   mix-blend-mode: normal;
   opacity: 0.75;
 }
@@ -180,80 +181,81 @@ header hr {
 .images-section .grid:hover {
   transform: translateY(20px);
 }
+.images-section .col-1 .row-1 .heading {
+  margin-block: 12rem;
+}
+.images-section .col-1 .row-1 .subhead {
+  margin-block: 15rem;
+}
+.images-section .col-1 .row-2 .heading {
+  margin-block: 14rem;
+}
 .images-section .col-1 .row-2 .subhead {
-  margin-block: 5rem;
+  margin-block: 17rem;
 }
-.images-section .col-1 .row-3 .image-text {
-  margin-top: 20%;
+.images-section .col-1 .row-3 .heading {
+  margin-block: 20rem;
 }
-.images-section .col-1 .row-3 .image-text .heading {
-  margin-block: 1rem;
+.images-section .col-1 .row-3 .subhead {
+  margin-block: 23rem;
 }
-.images-section .col-1 .row-3 .image-text .subhead {
-  margin-block: 5rem;
-}
-.images-section .col-1 .row-3 .image-text .grid {
+.images-section .col-1 .row-3 .grid {
   width: 90%;
   height: 92%;
   display: block;
   margin: auto;
   object-fit: cover;
 }
-.images-section .col-1 .row-4 .image-text {
-  margin-top: 7em;
+.images-section .col-2 .row-1 .heading {
+  margin-block: 20rem;
 }
-.images-section .col-1 .row-4 .image-text .subhead {
-  margin-block: 6em;
+.images-section .col-2 .row-1 .subhead {
+  margin-block: 23rem;
 }
-.images-section .col-2 .row-1 .image-text {
-  margin-top: 22%;
-}
-.images-section .col-2 .row-1 .image-text .subhead {
-  margin-block: 6em;
-}
-.images-section .col-2 .row-1 .image-text .grid {
+.images-section .col-2 .row-1 .grid {
   height: 94%;
 }
-.images-section .col-2 .row-2 .image-text {
-  margin-top: 9%;
+.images-section .col-2 .row-4 .heading {
+  margin-block: 15rem;
 }
-.images-section .col-2 .row-2 .image-text .subhead {
-  margin-block: 6em;
+.images-section .col-2 .row-4 .subhead {
+  margin-block: 18rem;
 }
-.images-section .col-2 .row-3 .image-text {
-  margin-top: 9%;
-}
-.images-section .col-2 .row-3 .image-text .grid {
+.images-section .col-2 .row-4 .grid {
   height: 92.4%;
 }
-
-.col-3 .row-2 .image-text {
-  margin-top: 24%;
+.images-section .col-3 .row-2 .heading {
+  margin-block: 24rem;
 }
-.col-3 .row-2 .image-text .subhead {
-  margin-block: 6em;
+.images-section .col-3 .row-2 .subhead {
+  margin-block: 27rem;
 }
-.col-3 .row-3 .image-text {
-  margin-top: 26%;
-}
-.col-3 .row-3 .image-text .grid {
-  height: 95%;
-}
-.col-3 .grid {
+.images-section .col-3 .row-2 .grid {
   height: 94%;
 }
-
-.col-4 .row-2 .image-text {
-  margin-top: 10%;
+.images-section .col-3 .row-3 .heading {
+  margin-block: 24rem;
 }
-.col-4 .row-3 .image-text {
-  margin-top: 20%;
+.images-section .col-3 .row-3 .subhead {
+  margin-block: 27rem;
 }
-.col-4 .row-3 .image-text .subhead {
-  margin-block: 6em;
+.images-section .col-3 .row-3 .grid {
+  height: 95%;
 }
-.col-4 .row-3 .grid {
+.images-section .col-4 .row-1 .heading {
+  margin-block: 12rem;
+}
+.images-section .col-4 .row-1 .subhead {
+  margin-block: 15rem;
+}
+.images-section .col-4 .row-3 .heading {
+  margin-block: 21rem;
+}
+.images-section .col-4 .row-3 .subhead {
+  margin-block: 24rem;
+}
+.images-section .col-4 .row-3 .grid {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csscd.map */
