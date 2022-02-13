@@ -108,7 +108,6 @@ header hr {
   opacity: 0.75;
   height: 3em;
   width: 8em;
-  transition: 0.4s ease-out;
 }
 .column-1 .view a {
   position: absolute;
@@ -197,22 +196,181 @@ footer .button-div {
   margin-right: 2em;
 }
 
+@media (max-width: 800px) {
+  header {
+    overflow-x: hidden;
+  }
+  header nav {
+    width: 90vw;
+  }
+  header nav h1 {
+    width: 8em;
+  }
+  header nav h4 {
+    width: 15em;
+    left: 74%;
+  }
+  header hr {
+    width: 100vw;
+    left: 0px;
+  }
+
+  .column-1 .title {
+    margin-top: 2.9em;
+    width: 30em;
+  }
+  .column-1 .thumbnail {
+    left: 65.13%;
+    top: 25em;
+    bottom: 0%;
+  }
+  .column-1 .view {
+    top: 43em;
+  }
+
+  .text {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 350%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-bottom: 5em;
+  }
+  .text h1 {
+    position: relative;
+    left: 11.46%;
+  }
+  .text p {
+    position: relative;
+    left: 20%;
+    height: 350px;
+    width: 80%;
+    margin-top: -7.7em;
+  }
+  .text a {
+    left: 20%;
+    top: 95%;
+    width: 30%;
+    margin-bottom: 5em;
+  }
+
+  footer {
+    border-top: 1px solid #000000;
+  }
+  footer .title {
+    margin-top: 1em;
+  }
+  footer .button-div {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  header nav {
+    width: 87vw;
+  }
+  header nav h1 {
+    font-size: 25px;
+  }
+  header nav h4 {
+    height: 11px;
+    left: 55%;
+    right: 0%;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    letter-spacing: 1.92857px;
+  }
+
+  .column-1 {
+    width: 95vw;
+  }
+  .column-1 .title {
+    width: 280px;
+    height: 104px;
+    left: 22px;
+    top: 25rem;
+  }
+  .column-1 .title h1 {
+    height: 29px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 14.5px - 13.5px);
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .column-1 .title p {
+    margin-left: 1.6em;
+    top: 35%;
+  }
+  .column-1 .main-image {
+    position: relative;
+    width: 90vw;
+    height: 300px;
+    left: 24px;
+    top: 0px;
+  }
+  .column-1 .view {
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 40px;
+    top: 14em;
+  }
+  .column-1 .thumbnail {
+    width: 64px;
+    height: 64px;
+    left: 40px;
+    top: 35em;
+  }
+
+  .text {
+    display: block;
+    position: relative;
+    width: 95%;
+    height: 30em;
+    top: 0%;
+    margin-bottom: 0;
+  }
+  .text h1 {
+    height: 120px;
+    left: 22.22%;
+    right: 10%;
+    top: -10%;
+    font-size: 110px;
+    line-height: 100px;
+    text-align: center;
+    width: 70%;
+  }
+  .text p {
+    height: 70%;
+    left: 0%;
+    right: 0%;
+    top: -8%;
+    line-height: 28px;
+    width: 90%;
+    margin-left: auto;
+  }
+  .text a {
+    top: 80%;
+    left: 10%;
+    width: 60%;
+  }
+
+  footer {
+    border-top: 1px solid #000000;
+  }
+  footer .title {
+    margin-top: 1em;
+  }
+  footer .button-div {
+    margin-top: 1em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
-/* Adding hover effects */
-.button-div img{
-  transition: transform 0.1s ease;
-} 
-
-.button-div img:hover{
-  transform: translate(-4px, -4px);
-}
-
-.column-1 .view:hover{
-  transform: translate(-6px, -6px);
-  background-image: linear-gradient(
-    225deg,
-    #27d86c 0%,
-    #26caf8 50%,
-    #c625d0 100%
-  );
-}

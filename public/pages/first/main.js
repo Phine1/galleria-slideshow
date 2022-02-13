@@ -3,8 +3,8 @@ const mainSection = document.getElementById('main')
 fetch("../../data.json")
   .then((response) => response.json())
   .then((data) => {
-      console.log(data)
       mainSection.innerHTML = `
+
       <div class='column-1'>
 
       <div class="title">
@@ -24,5 +24,6 @@ fetch("../../data.json")
       <p class='description'>${data[0].description}</p>
       <a href='${data[0].source}'>GO TO SOURCE</a>
       </div>
+      
       `
   })
