@@ -8,14 +8,16 @@ fetch("../../data.json")
       <div class='column-1'>
 
       <div class="title">
-      <h1>${data[3].name}</h1>
+      <h1>${data[3].name}</h1><br> <br><br> <br><br><br><br>
       <p>${data[3].artist.name}</p>
       </div>
 
-      <img class='main-image' src="../../${data[3].images.hero.small}" alt='main image'>
-      <div class='view'><a href='../../${data[3].images.hero.large}' target='_top'>VIEW IMAGE</a></div>
-      <img class='thumbnail' src='../../${data[3].artist.image}' alt='antique'>
-
+     
+    <div class="gallery">
+    <img class='main-image' src="../../${data[3].images.hero.small}" alt='main image'>
+    <div class='view'><a href='../../${data[3].images.hero.small}'  data-lightbox="mygallery" target='_top'>VIEW IMAGE</a></div>
+    <img class='thumbnail' src='../../${data[3].artist.image}' alt='antique'>
+    </div>
       </div>
 
 
