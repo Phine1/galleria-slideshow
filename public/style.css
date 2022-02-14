@@ -16,7 +16,7 @@ header {
 }
 header nav {
   position: absolute;
-  width: 100vw;
+  width: 95%;
   height: 62px;
   left: 40px;
   top: 40px;
@@ -148,7 +148,7 @@ header hr {
   margin-left: 2%;
   margin-top: 13%;
 }
-.images-section .heading {
+.images-section .image-text .heading {
   position: absolute;
   font-size: 24px;
   font-weight: bold;
@@ -157,7 +157,7 @@ header hr {
   height: 60px;
   line-height: 30px;
 }
-.images-section .subhead {
+.images-section .image-text .subhead {
   position: absolute;
   font-size: 13px;
   margin-left: 1.8em;
@@ -254,6 +254,66 @@ header hr {
 }
 .col-4 .row-3 .grid {
   margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  header nav {
+    position: relative;
+    width: 100vw;
+    margin-right: 10em;
+    right: 20px;
+  }
+  header nav h1 {
+    width: 4em;
+  }
+  header nav h4 {
+    position: relative;
+    width: 15em;
+    margin-right: 4px;
+    left: 65%;
+  }
+  header hr {
+    width: 100vw;
+    left: 0px;
+  }
+
+  .images-section {
+    flex-wrap: wrap;
+  }
+  .images-section .col-1,
+.images-section .col-2,
+.images-section .col-3,
+.images-section .col-4 {
+    width: 48vw;
+    position: relative;
+  }
+  .images-section .image-text {
+    overflow: scroll;
+    margin-block: 13em;
+    width: 40vw;
+  }
+  .images-section .image-text .heading {
+    overflow: scroll;
+  }
+  .images-section .image-text .subhead {
+    overflow: scroll;
+  }
+}
+@media (max-width: 480px) {
+  .images-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .images-section .col-1,
+.images-section .col-2,
+.images-section .col-3,
+.images-section .col-4 {
+    width: 100vw;
+    position: relative;
+  }
+  .images-section .image-text {
+    width: 80vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
