@@ -12,10 +12,12 @@ fetch("../../data.json")
       <p>${data[14].artist.name}</p>
       </div>
 
-      <img class='main-image' src="../../${data[14].images.hero.small}" alt='main image'>
-      <div class='view'><a href='../../${data[14].images.hero.large}' target='_top'>VIEW IMAGE</a></div>
-      <img class='thumbnail' src='../../${data[14].artist.image}' alt='antique'>
-
+      
+    <div class="gallery">
+    <img class='main-image' src="../../${data[14].images.hero.small}" alt='main image'>
+    <div class='view'><a href='../../${data[14].images.hero.small}'  data-lightbox="mygallery" target='_top'>VIEW IMAGE</a></div>
+    <img class='thumbnail' src='../../${data[14].artist.image}' alt='antique'>
+    </div>
       </div>
 
 
