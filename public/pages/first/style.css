@@ -261,7 +261,7 @@ footer .button-div {
   html {
     overflow-x: hidden;
   }
-
+  
   header nav {
     width: 87vw;
   }
@@ -365,3 +365,13 @@ footer .button-div {
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+.column-1 .view:hover{
+  transform: translate(-6px, -6px);
+  background-image: linear-gradient(
+    225deg,
+    #27d86c 0%,
+    #26caf8 50%,
+    #c625d0 100%
+  );
+}

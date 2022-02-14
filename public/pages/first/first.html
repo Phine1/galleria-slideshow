@@ -17,16 +17,26 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+
+
+
+
+    
     <script
       src="https://kit.fontawesome.com/bab61862e5.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="../../lightbox.min.css">
+    <script src="../../lightbox-plus-jquery.min.js"></script>
+
+
   </head>
   <body>
     <header>
       <nav>
-        <h1>galleria</h1>
-        <h4>START SLIDESHOW</h4>
+        <a class="link link--1 border-transparent" href="/public/index.html"><h1>galleria</h1></a>
+        <a class="link link--1 border-transparent" href="/public/index.html"><h4>STOP SLIDESHOW</h4></a>
+    
       </nav>
       <hr />
     </header>
@@ -46,6 +56,30 @@
         /></a>
       </div>
     </footer>
+
+    <!-- <div class="lightbox hidden" id="lightbox">
+      <div class="lightbox__image-wrapper container--inline" id="lightboxWrapper">
+        <div>
+          <button class="lightbox__close" id="closeLightbox">Close</button>
+        </div>
+      </div>
+    </div> -->
+
+<!-- <script>
+  const viewImage = document.getElementById('viewImage');
+const lightbox = document.getElementById('lightbox');
+
+const lightboxWrapper = document.getElementById('lightboxWrapper');
+const imageTemplate = `<img class="lightbox__image" id="lightbox__image" src="${paintingData.images.gallery}" alt="" />`;
+lightboxWrapper.innerHTML += imageTemplate;
+
+viewImage.addEventListener('click', () => {
+  lightbox.classList.remove('hidden');
+  bodyTag.classList.add('no-scroll');
+});
+
+</script> -->
+
     <script src="./main.js"></script>
   </body>
 </html>
