@@ -88,32 +88,30 @@ header {
     margin-top: 3em;
     margin-bottom: 5em;
   }
-  .view {
+  a {
     position: absolute;
-    left: 3.89%;
-    right: 85.56%;
-    bottom: 0.5%;
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.75;
+    display: inline-block;
+    left: 1.7em;
+    top: 94%;
+    width: 10em;
     height: 3em;
-    width: 8em;
-
-    a {
-      position: absolute;
-      height: 12px;
-      left: 0%;
-      right: 0%;
-      top: calc(50% - 12px / 2 - 0.5px);
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10px;
-      line-height: 12px;
-      text-align: right;
-      letter-spacing: 2.14286px;
+    background-color: #000000;
+    text-decoration: none;
+    padding-left: 8px;
+    img {
+      position: relative;
+      top: .8em;
+    }
+    .view {
+      display: inline;
+    }
+    p {
+      position: relative;
+      font-size: 12px;
       color: #ffffff;
-      padding-right: 1.5em;
-      text-decoration: none;
+      left: 3.5em;
+      bottom: .8em;
+    
     }
   }
   .thumbnail {
