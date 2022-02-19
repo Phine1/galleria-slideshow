@@ -295,7 +295,7 @@ header hr {
   }
   .images-section .image-text {
     overflow: scroll;
-    margin-block: 13em;
+    margin-block: 15em;
     width: 40vw;
   }
   .images-section .image-text .heading {
@@ -303,6 +303,54 @@ header hr {
   }
   .images-section .image-text .subhead {
     overflow: scroll;
+  }
+  .images-section .col-1 .row-1 .image-text {
+    margin-top: 16em;
+  }
+  .images-section .col-1 .row-3 .image-text {
+    margin-top: 23.5em;
+  }
+  .images-section .col-1 .row-4 .image-text {
+    margin-top: 11em;
+  }
+  .images-section .col-1 .row-4 .image-text .subhead {
+    margin-block: 3em;
+  }
+  .images-section .col-2 .row-1 .subhead {
+    margin-block: 4em;
+  }
+  .images-section .col-2 .row-1 .image-text {
+    margin-top: 23em;
+  }
+  .images-section .col-2 .row-2 .image-text {
+    margin-top: 10em;
+  }
+  .images-section .col-2 .row-3 .image-text {
+    margin-top: 12em;
+  }
+  .images-section .col-2 .row-4 {
+    height: 62.5vh;
+  }
+  .images-section .col-2 .row-4 .image-text {
+    margin-top: 21em;
+  }
+  .images-section .col-3 .row-2 .image-text {
+    margin-top: 29em;
+  }
+  .images-section .col-3 .row-3 {
+    height: 83vh;
+  }
+  .images-section .col-3 .row-3 .image-text {
+    margin-top: 33em;
+  }
+  .images-section .col-4 .row-1 .image-text {
+    margin-top: 16.5em;
+  }
+  .images-section .col-4 .row-2 .image-text {
+    margin-top: 12em;
+  }
+  .images-section .col-4 .row-3 .image-text {
+    margin-top: 25em;
   }
 }
 @media (max-width: 480px) {
