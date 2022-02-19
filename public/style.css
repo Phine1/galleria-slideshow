@@ -146,7 +146,7 @@ header hr {
   width: 20vw;
   height: 6em;
   margin-left: 2%;
-  margin-top: 13%;
+  margin-top: 15%;
 }
 .images-section .image-text .heading {
   position: absolute;
@@ -164,7 +164,7 @@ header hr {
   color: #ffffff;
   font-size: 13px;
   line-height: 16px;
-  margin-block: 4em;
+  margin-block: 2.8em;
   mix-blend-mode: normal;
   opacity: 0.75;
 }
@@ -181,16 +181,16 @@ header hr {
   transform: translateY(20px);
 }
 .images-section .col-1 .row-2 .subhead {
-  margin-block: 5rem;
+  margin-block: 4rem;
 }
 .images-section .col-1 .row-3 .image-text {
-  margin-top: 20%;
+  margin-top: 23%;
 }
 .images-section .col-1 .row-3 .image-text .heading {
   margin-block: 1rem;
 }
 .images-section .col-1 .row-3 .image-text .subhead {
-  margin-block: 5rem;
+  margin-block: 3.3rem;
 }
 .images-section .col-1 .row-3 .image-text .grid {
   width: 90%;
@@ -200,16 +200,16 @@ header hr {
   object-fit: cover;
 }
 .images-section .col-1 .row-4 .image-text {
-  margin-top: 7em;
+  margin-top: 10em;
 }
 .images-section .col-1 .row-4 .image-text .subhead {
-  margin-block: 6em;
+  margin-block: 5em;
 }
 .images-section .col-2 .row-1 .image-text {
-  margin-top: 22%;
+  margin-top: 24%;
 }
 .images-section .col-2 .row-1 .image-text .subhead {
-  margin-block: 6em;
+  margin-block: 5em;
 }
 .images-section .col-2 .row-1 .image-text .grid {
   height: 94%;
@@ -221,20 +221,23 @@ header hr {
   margin-block: 6em;
 }
 .images-section .col-2 .row-3 .image-text {
-  margin-top: 9%;
+  margin-top: 13%;
 }
 .images-section .col-2 .row-3 .image-text .grid {
   height: 92.4%;
 }
+.images-section .col-2 .row-4 .image-text {
+  margin-top: 17.7%;
+}
 
 .col-3 .row-2 .image-text {
-  margin-top: 24%;
+  margin-top: 31%;
 }
 .col-3 .row-2 .image-text .subhead {
-  margin-block: 6em;
+  margin-block: 3em;
 }
 .col-3 .row-3 .image-text {
-  margin-top: 26%;
+  margin-top: 31.4%;
 }
 .col-3 .row-3 .image-text .grid {
   height: 95%;
@@ -243,14 +246,17 @@ header hr {
   height: 94%;
 }
 
+.col-4 .row-1 .image-text {
+  margin-top: 16%;
+}
 .col-4 .row-2 .image-text {
-  margin-top: 10%;
+  margin-top: 12.4%;
 }
 .col-4 .row-3 .image-text {
-  margin-top: 20%;
+  margin-top: 25%;
 }
 .col-4 .row-3 .image-text .subhead {
-  margin-block: 6em;
+  margin-block: 3.2em;
 }
 .col-4 .row-3 .grid {
   margin-top: 10px;
@@ -300,6 +306,26 @@ header hr {
   }
 }
 @media (max-width: 480px) {
+  header nav {
+    position: relative;
+    width: 100vw;
+    margin-right: 10em;
+    right: 20px;
+  }
+  header nav h1 {
+    width: 4em;
+  }
+  header nav h4 {
+    position: relative;
+    width: 15em;
+    margin-right: 4px;
+    left: 20em;
+  }
+  header hr {
+    width: 100vw;
+    left: 0px;
+  }
+
   .images-section {
     flex-direction: column;
     height: auto;
@@ -312,7 +338,87 @@ header hr {
     position: relative;
   }
   .images-section .image-text {
-    width: 80vw;
+    margin-block: 18em;
+  }
+  .images-section .image-text .subhead {
+    margin-block: 3.8em;
+  }
+  .images-section .col-1 .row-3 .image-text {
+    margin-top: 25em;
+  }
+  .images-section .col-1 .row-3 .image-text .subhead {
+    margin-block: 6em;
+  }
+  .images-section .col-2 .row-1 .image-text {
+    margin-top: 26em;
+  }
+  .images-section .col-2 .row-2 .image-text {
+    margin-top: 13em;
+  }
+  .images-section .col-2 .row-2 .image-text .subhead {
+    margin-block: 6em;
+  }
+  .images-section .col-2 .row-3 .image-text {
+    margin-top: 13em;
+  }
+  .images-section .col-2 .row-3 .image-text .subhead {
+    margin-block: 5em;
+  }
+  .images-section .col-2 .row-4 .image-text {
+    margin-top: 16em;
+  }
+  .images-section .col-2 .row-4 .image-text .subhead {
+    margin-block: 5em;
+  }
+
+  .col-3 .row-1 .image-text {
+    margin-top: 17.2em;
+  }
+  .col-3 .row-1 .image-text .subhead {
+    margin-block: 3em;
+  }
+  .col-3 .row-2 .image-text {
+    margin-top: 32em;
+  }
+  .col-3 .row-2 .image-text .subhead {
+    margin-block: 5em;
+  }
+  .col-3 .row-3 .image-text {
+    margin-top: 34em;
+  }
+  .col-3 .row-3 .image-text .subhead {
+    margin-block: 3.4em;
+  }
+  .col-3 .row-3 .image-text .grid {
+    height: 95%;
+  }
+  .col-3 .grid {
+    height: 94%;
+  }
+
+  .col-4 .row-1 .image-text {
+    margin-top: 16.7em;
+  }
+  .col-4 .row-1 .image-text .subhead {
+    margin-block: 5em;
+  }
+  .col-4 .row-2 .image-text {
+    margin-top: 12.4em;
+  }
+  .col-4 .row-2 .image-text .subhead {
+    margin-block: 5em;
+  }
+  .col-4 .row-3 .image-text {
+    margin-top: 26.5em;
+  }
+  .col-4 .row-3 .image-text .subhead {
+    margin-block: 5em;
+  }
+  .col-4 .row-3 .grid {
+    margin-top: 10px;
+  }
+  .col-4 .row-4 .image-text {
+    margin-top: 21em;
   }
 }
 
