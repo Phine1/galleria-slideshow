@@ -52,15 +52,11 @@ header {
     background: #e5e5e5;
   }
 }
-.main {
-  display: flex;
-  max-width: 90vw;
-  max-height: 80vh;
-  background-color: blue;
-}
+
 .column-1 {
   width: 60%;
   height: 100%;
+  margin-bottom: 4em;
   .title {
     position: absolute;
     background-color: #ffffff;
@@ -68,27 +64,24 @@ header {
     margin-top: 3em;
     z-index: 3;
     width: 30%;
+    height: 16em;
     h1 {
-      height: 192px;
       font-style: normal;
       font-weight: bold;
       font-size: 44px;
-      line-height: 64px;
       color: #000000;
       margin-left: 1em;
     }
     p {
       position: absolute;
-      height: 19px;
       font-family: Libre Baskerville;
       font-style: normal;
       font-weight: normal;
       font-size: 15px;
-      line-height: 19px;
       margin-left: 3em;
       color: #7d7d7d;
-      top: 40%;
-      margin-block: 4em;
+      bottom: 10%;
+      margin-block:3em;
     }
   }
 
@@ -96,39 +89,38 @@ header {
     margin-top: 3em;
     margin-bottom: 5em;
   }
-  .view {
-    position: absolute;
-    left: 3.89%;
-    right: 85.56%;
-    bottom: 0.5%;
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.75;
+  .expand {
+    width: 9.5em;
     height: 3em;
-    width: 8em;
-
-    a {
-      position: absolute;
-      height: 12px;
-      left: 0%;
-      right: 0%;
-      top: calc(50% - 12px / 2 - 0.5px);
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10px;
-      line-height: 12px;
-      text-align: right;
-      letter-spacing: 2.14286px;
+    background-color: #000000;
+    text-decoration: none;
+    padding-left: 8px;
+    position: absolute;
+    top: 94%;
+    left: 1.5em;
+    img {
+      display: block;
+      position: relative;
+      top: .5em;
+      margin-top: 4px;
+    }
+    .view {
+      display: inline;
+    }
+    p {
+      font-size: 12px;
       color: #ffffff;
-      padding-right: 1.5em;
-      text-decoration: none;
+      position: relative;
+      left: 3em;
+      bottom: 1em;
+      width: 10em;
     }
   }
   .thumbnail {
     position: absolute;
-    left: 51.13%;
+    left: 45.5%;
     right: 53.46%;
-    top: 108.49%;
+    top: 98.49%;
     bottom: 0%;
   }
 }
@@ -164,7 +156,7 @@ header {
     height: 11px;
     left: 65.07%;
     right: 27.43%;
-    top: 116%;
+    top: 98%;
     font-style: normal;
     font-weight: bold;
     font-size: 9px;
@@ -219,12 +211,13 @@ footer {
     }
     .thumbnail {
       left: 65.13%;
-      // right: 53.46%;
       top: 25em;
-      bottom: 0%;
+      height: 13em;
+      width: 12em;
     }
-    .view {
-      top: 43em;
+    .expand {
+      left: 1.7em;
+      top: 86%;
     }
   }
   .text {
@@ -288,20 +281,50 @@ footer {
     width: 95vw;
     .title {
       width: 280px;
-      height: 104px;
+      height: 6em;
       left: 22px;
       top: 25rem;
       h1 {
-        height: 29px;
+        // height: 29px;
         left: 0%;
         right: 0%;
         top: calc(50% - 29px / 2 - 13.5px);
         font-size: 24px;
-        line-height: 29px;
+        // line-height: 29px;
       }
       p {
         margin-left: 1.6em;
-        top: 35%;
+        margin-block: .3em;
+      }
+    }
+    .expand {
+      position: static;
+      left: 3em;
+      top: 29%;
+      width: 9em;
+      img {
+       position: absolute;
+       top: .5em;
+       left: 4px;
+       padding-right: 5px;
+    
+      }
+      .view {
+        display: flex;
+        width: 8em;
+        height: 3em;
+        background-color: #000000;
+        position: absolute;
+      left: 40px;
+      top: 14em;
+      }
+      p {
+        position: absolute;
+        top: 1.4em;
+        font-size: 12px;
+        color: #ffffff;
+        left: 2.5em;
+        padding-left: 5px;
       }
     }
     .main-image {
@@ -327,7 +350,7 @@ footer {
   }
   .text {
     display: block;
-    position: relative;
+    position: static;
     width: 95%;
     height: 30em;
     top: 0%;
