@@ -151,7 +151,7 @@ $head2-lh: 17px;
     height: 6em;
     margin-left: 2%;
     margin-top: 15%;
-    
+
     .heading {
       position: absolute;
       font-size: $subhead-1;
@@ -338,13 +338,90 @@ $head2-lh: 17px;
     }
     .image-text {
       overflow: scroll;
-      margin-block: 13em;
+      margin-block: 15em;
       width: 40vw;
       .heading {
         overflow: scroll;
       }
       .subhead {
         overflow: scroll;
+      }
+    }
+    .col-1 {
+      .row-1 {
+        .image-text {
+          margin-top: 16em;
+        }
+      }
+      .row-3 {
+        .image-text {
+          margin-top: 23.5em;
+        }
+      }
+      .row-4 {
+        .image-text {
+          margin-top: 11em;
+
+          .subhead {
+            margin-block: 3em;
+          }
+        }
+      }
+    }
+    .col-2 {
+      .row-1 {
+        .subhead {
+          margin-block: 4em;
+        }
+        .image-text {
+          margin-top: 23em;
+        }
+      }
+      .row-2 {
+        .image-text {
+          margin-top: 10em;
+        }
+      }
+      .row-3 {
+        .image-text {
+          margin-top: 12em;
+        }
+      }
+      .row-4 {
+        height: 62.5vh;
+        .image-text {
+          margin-top: 21em;
+        }
+      }
+    }
+    .col-3 {
+      .row-2 {
+        .image-text {
+          margin-top: 29em;
+        }
+      }
+      .row-3 {
+        height: 83vh;
+        .image-text {
+          margin-top: 33em;
+        }
+      }
+    }
+    .col-4 {
+      .row-1 {
+        .image-text {
+          margin-top: 16.5em;
+        }
+      }
+      .row-2 {
+        .image-text {
+          margin-top: 12em;
+        }
+      }
+      .row-3 {
+        .image-text {
+          margin-top: 25em;
+        }
       }
     }
   }
@@ -360,12 +437,14 @@ $head2-lh: 17px;
 
       h1 {
         width: 4em;
+        font-size: 28px;
       }
       h4 {
         position: relative;
         width: 15em;
         margin-right: 4px;
-        left: 20em;
+        left: 40vw;
+        font-size: 10px;
       }
     }
     hr {
@@ -373,9 +452,9 @@ $head2-lh: 17px;
       left: 0px;
     }
   }
-.images-section {
-  flex-direction: column;
-  height: auto;
+  .images-section {
+    flex-direction: column;
+    height: auto;
     .col-1,
     .col-2,
     .col-3,
@@ -384,150 +463,137 @@ $head2-lh: 17px;
       position: relative;
     }
     .image-text {
-      margin-block: 18em;
-      .subhead {
-        margin-block: 3.8em;
-      }
-}
-.col-1 {
-  .row-3 {
-    .image-text {
-      margin-top: 25em;
-      .subhead {
-        margin-block: 6em;
-      }
-    }
-  }
-}
-// .col-1 {
-//   .row-2 {
-//     .subhead {
-//       margin-block: 4rem;
-//     }
-//   }
-//   .row-3 {
-//     .image-text {
-//       margin-top: 23%;
-//       .heading {
-//         margin-block: 1rem;
-//       }
-//       .subhead {
-//         margin-block: 3.3rem;
-//       }
-//       .grid {
-//         width: 90%;
-//         height: 92%;
-//         display: block;
-//         margin: auto;
-//         object-fit: cover;
-//       }
-//     }
-//   }
-//   .row-4 {
-//     .image-text {
-//       margin-top: 10em;
-//       .subhead {
-//         margin-block: 5em;
-//       }
-//     }
-//   }
-// }
-.col-2 {
-  .row-1 {
-    .image-text {
-      margin-top: 26em;
-    }
-  }
-  .row-2 {
-    .image-text {
-      margin-top: 13em;
-      .subhead {
-        margin-block: 6em;
-      }
-    }
-  }
-  .row-3 {
-    .image-text {
-      margin-top: 13em;
-     .subhead {
-       margin-block: 5em;
-     }
-    }
-  }
-  .row-4 {
-    .image-text {
-      margin-top: 16em;
+      margin-block: 15em;
+      width: 15em;
       .subhead {
         margin-block: 5em;
       }
     }
-  }
-}
-}
-.col-3 {
-  .row-1 {
-    .image-text {
-      margin-top: 17.2em;
-      .subhead {
-        margin-block: 3em;
+    .col-1 {
+      .row-1 {
+        .image-text {
+          margin-top: 16em;
+          .subhead {
+            margin-block: 3.5em;
+          }
+        }
+      }
+      .row-3 {
+        .image-text {
+          margin-top: 23em;
+          .subhead {
+            margin-block: 6em;
+          }
+        }
+      }
+      .row-4 {
+        .image-text {
+        .subhead {
+          margin-block: 5em;
+        }
+      }
+      }
+    }
+
+    .col-2 {
+      .row-1 {
+        .image-text {
+          margin-top: 23em;
+        }
+      }
+      .row-2 {
+        .image-text {
+          margin-top: 11em;
+          .subhead {
+            margin-block: 6em;
+          }
+        }
+      }
+      .row-3 {
+        .image-text {
+          margin-top: 11em;
+          .subhead {
+            margin-block: 5em;
+          }
+        }
+      }
+      .row-4 {
+        .image-text {
+          margin-top: 20em;
+          .subhead {
+            margin-block: 5em;
+          }
+        }
       }
     }
   }
-.row-2 {
-  .image-text {
-    margin-top: 32em;
-    .subhead {
-      margin-block: 5em;
+  .col-3 {
+    .row-1 {
+      .image-text {
+        margin-top: 14.2em;
+        .subhead {
+          margin-block: 3em;
+        }
+      }
     }
-  }
-}
-.row-3 {
-  .image-text {
-    margin-top: 34em;
-    .subhead {
-      margin-block: 3.4em;
+    .row-2 {
+      .image-text {
+        margin-top: 32em;
+        .subhead {
+          margin-block: 5em;
+        }
+      }
+    }
+    .row-3 {
+      .image-text {
+        margin-top: 34em;
+        .subhead {
+          margin-block: 3.4em;
+        }
+        .grid {
+          height: 95%;
+        }
+      }
     }
     .grid {
-      height: 95%;
+      height: 94%;
     }
   }
-}
-.grid {
-  height: 94%;
-}
-}
-.col-4 {
-.row-1 {
-  .image-text {
-    margin-top: 16.7em;
-    .subhead {
-    margin-block: 5em;
-  }
-}
-}
-.row-2 {
-  .image-text {
-    margin-top: 12.4em;
-    .subhead {
-      margin-block: 5em;
+  .col-4 {
+    .row-1 {
+      .image-text {
+        margin-top: 16.7em;
+        .subhead {
+          margin-block: 5em;
+        }
+      }
+    }
+    .row-2 {
+      .image-text {
+        margin-top: 12.4em;
+        .subhead {
+          margin-block: 5em;
+        }
+      }
+    }
+    .row-3 {
+      .image-text {
+        margin-top: 26.5em;
+        .subhead {
+          margin-block: 5em;
+        }
+      }
+      .grid {
+        margin-top: 10px;
+      }
+    }
+    .row-4 {
+      .image-text {
+        margin-top: 10em;
+        .subhead {
+          margin-block: 3.5em;
+        }
+      }
     }
   }
-}
-.row-3 {
-  .image-text {
-    margin-top: 26.5em;
-    .subhead {
-      margin-block: 5em;
-    }
-  }
-  .grid {
-    margin-top: 10px;
-  }
-}
-.row-4 {
-  .image-text {
-    margin-top: 21em;
-  }
-}
-}
 }

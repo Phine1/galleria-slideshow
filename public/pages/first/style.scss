@@ -55,6 +55,7 @@ header {
 .column-1 {
   width: 60%;
   height: 100%;
+  margin-bottom: 4em;
   .title {
     position: absolute;
     background-color: #ffffff;
@@ -85,42 +86,42 @@ header {
   }
 
   .main-image {
+    width: 76%;
     margin-top: 3em;
     margin-bottom: 5em;
   }
-  .view {
-    position: absolute;
-    left: 3.89%;
-    right: 85.56%;
-    bottom: 0.5%;
-    background: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.75;
+  .expand {
+    width: 9.5em;
     height: 3em;
-    width: 8em;
-
-    a {
-      position: absolute;
-      height: 12px;
-      left: 0%;
-      right: 0%;
-      top: calc(50% - 12px / 2 - 0.5px);
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10px;
-      line-height: 12px;
-      text-align: right;
-      letter-spacing: 2.14286px;
+    background-color: #000000;
+    text-decoration: none;
+    padding-left: 8px;
+    position: absolute;
+    top: 98%;
+    left: 1.5em;
+    img {
+      display: block;
+      position: relative;
+      top: .5em;
+      margin-top: 4px;
+    }
+    .view {
+      display: inline;
+    }
+    p {
+      font-size: 12px;
       color: #ffffff;
-      padding-right: 1.5em;
-      text-decoration: none;
+      position: relative;
+      left: 3em;
+      bottom: 1em;
+      width: 10em;
     }
   }
   .thumbnail {
     position: absolute;
-    left: 51.13%;
+    left: 48.13%;
     right: 53.46%;
-    top: 108.49%;
+    top: 100.49%;
     bottom: 0%;
   }
 }
@@ -156,7 +157,7 @@ header {
     height: 11px;
     left: 65.07%;
     right: 27.43%;
-    top: 116%;
+    top: 98%;
     font-style: normal;
     font-weight: bold;
     font-size: 9px;
@@ -208,9 +209,16 @@ footer {
     .title {
       margin-top: 2.9em;
     }
+    .main-image {
+      width: 100%;
+      height: 100%;
+    }
+    .expand {
+      left: 1.7em;
+      top: 66%;
+    }
     .thumbnail {
       left: 65.13%;
-      // right: 53.46%;
       top: 25em;
       bottom: 0%;
     }
@@ -295,19 +303,42 @@ footer {
         top: 35%;
       }
     }
+    .expand {
+      position: static;
+      left: 3em;
+      top: 29%;
+      width: 9em;
+      img {
+       position: absolute;
+       top: .5em;
+       left: 4px;
+       padding-right: 5px;
+    
+      }
+      .view {
+        display: flex;
+        width: 8em;
+        height: 3em;
+        background-color: #000000;
+        position: absolute;
+      left: 40px;
+      top: 14em;
+      }
+      p {
+        position: absolute;
+        top: 1.4em;
+        font-size: 12px;
+        color: #ffffff;
+        left: 2.5em;
+        padding-left: 5px;
+      }
+    }
     .main-image {
       position: relative;
       width: 90vw;
       height: 300px;
       left: 24px;
       top: 0px;
-    }
-    .view {
-      position: absolute;
-      width: 152px;
-      height: 40px;
-      left: 40px;
-      top: 14em;
     }
     .thumbnail {
       width: 64px;
