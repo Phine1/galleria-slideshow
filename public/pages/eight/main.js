@@ -15,7 +15,7 @@ fetch("../../data.json")
      
     <div class="gallery">
     <img class='main-image' src="../../${data[7].images.hero.small}" alt='main image'>
-    <div class='view'><a href='../../${data[7].images.hero.small}'  data-lightbox="mygallery" target='_top'>VIEW IMAGE</a></div>
+    <a class='expand' href='../../${data[7].images.hero.small}'  data-lightbox="mygallery" target='_top'><div class='view'><img src="https://img.icons8.com/ios-glyphs/24/ffffff/expand--v1.png"/><p>VIEW IMAGE</p></div></a>
     <img class='thumbnail' src='../../${data[7].artist.image}' alt='antique'>
     </div>
       </div>
