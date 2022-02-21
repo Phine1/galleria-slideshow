@@ -188,10 +188,10 @@ header hr {
   margin-block: 4rem;
 }
 .images-section .col-1 .row-3 .image-text {
-  margin-top: 15em;
+  margin-top: 16em;
 }
 .images-section .col-1 .row-3 .image-text .heading {
-  margin-block: 1rem;
+  margin-block: 5rem;
 }
 .images-section .col-1 .row-3 .image-text .subhead {
   margin-block: 3.3rem;
@@ -235,10 +235,10 @@ header hr {
 }
 
 .col-3 .row-2 .image-text {
-  margin-top: 24em;
+  margin-top: 23em;
 }
 .col-3 .row-2 .image-text .subhead {
-  margin-block: 3em;
+  margin-block: 5em;
 }
 .col-3 .row-3 .image-text {
   margin-top: 31.4%;
@@ -257,10 +257,10 @@ header hr {
   margin-top: 12.4%;
 }
 .col-4 .row-3 .image-text {
-  margin-top: 21em;
+  margin-top: 19em;
 }
 .col-4 .row-3 .image-text .subhead {
-  margin-block: 3.2em;
+  margin-block: 5em;
 }
 .col-4 .row-3 .grid {
   margin-top: 10px;
