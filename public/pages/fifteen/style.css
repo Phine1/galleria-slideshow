@@ -16,7 +16,7 @@ header {
 }
 header nav {
   position: absolute;
-  width: 100vw;
+  width: 92vw;
   height: 48px;
   left: 40px;
   top: 40px;
@@ -100,7 +100,7 @@ header hr {
   text-decoration: none;
   padding-left: 8px;
   position: absolute;
-  top: 96%;
+  top: 98%;
   left: 1.5em;
 }
 .column-1 .expand img {
@@ -126,9 +126,9 @@ header hr {
 }
 .column-1 .thumbnail {
   position: absolute;
-  left: 46.13%;
+  left: 48.13%;
   right: 53.46%;
-  top: 97.49%;
+  top: 100.49%;
   bottom: 0%;
 }
 
