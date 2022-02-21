@@ -28,6 +28,7 @@ header {
       font-weight: bolder;
       font-size: 44px;
       line-height: 45px;
+      width: 5em;
     }
     h4 {
       position: absolute;
@@ -189,13 +190,17 @@ $head2-lh: 17px;
 
   .col-1 {
     .row-2 {
+      .image-text {
+
+      margin-top: 12.5em;
       .subhead {
         margin-block: 4rem;
       }
     }
+    }
     .row-3 {
       .image-text {
-        margin-top: 23%;
+        margin-top: 19em;
         .heading {
           margin-block: 1rem;
         }
@@ -213,7 +218,7 @@ $head2-lh: 17px;
     }
     .row-4 {
       .image-text {
-        margin-top: 10em;
+        margin-top: 8em;
         .subhead {
           margin-block: 5em;
         }
@@ -261,7 +266,7 @@ $head2-lh: 17px;
 .col-3 {
   .row-2 {
     .image-text {
-      margin-top: 31%;
+      margin-top: 27em;
       .subhead {
         margin-block: 3em;
       }
@@ -292,7 +297,7 @@ $head2-lh: 17px;
   }
   .row-3 {
     .image-text {
-      margin-top: 25%;
+      margin-top: 24em;
       .subhead {
         margin-block: 3.2em;
       }
@@ -363,7 +368,7 @@ $head2-lh: 17px;
           margin-top: 11em;
 
           .subhead {
-            margin-block: 3em;
+            margin-block: 5.5em;
           }
         }
       }
@@ -398,6 +403,9 @@ $head2-lh: 17px;
       .row-2 {
         .image-text {
           margin-top: 29em;
+          .subhead {
+            margin-block: 5.5em;
+          }
         }
       }
       .row-3 {
@@ -421,6 +429,14 @@ $head2-lh: 17px;
       .row-3 {
         .image-text {
           margin-top: 25em;
+        }
+      }
+      .row-4 {
+
+        .grid {
+          width: 90%;
+          height: 98%;
+      
         }
       }
     }
@@ -589,7 +605,7 @@ $head2-lh: 17px;
     }
     .row-4 {
       .image-text {
-        margin-top: 10em;
+        margin-top: 20em;
         .subhead {
           margin-block: 3.5em;
         }
